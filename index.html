@@ -1,8 +1,84 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal WebPage on Github!</title>
 
-<body>
-<h1> Mustafa Alper Yildiz</h1>
-<p> Welcome to my website!</p>
-<img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/85e624ca9a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Alper Yildiz</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skils</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <div class="write-up">
+          <h2 class="section-heading">About Me</h2>
+
+          <p>
+            I am a seasoned programmer and engineer with a unique journey that
+            began in 1997 when I started coding with Turbo C. My academic
+            background is rooted in nuclear engineering, where I earned my Ph.D.
+            and honed my programming expertise in scientific computing.
+            Throughout my career, I’ve leveraged powerful programming languages
+            such as Fortran, Python, MATLAB, and C++ to solve complex problems,
+            run simulations, and conduct high-level analyses in scientific and
+            engineering contexts.
+          </p>
+          <br />
+
+          <p>
+            Currently, I am expanding my programming repertoire by diving into
+            modern web development. I am learning HTML, CSS, and JavaScript to
+            build dynamic and responsive web applications. This shift allows me
+            to combine my deep analytical background with creative design and
+            user-focused solutions.
+          </p>
+          <br />
+          <p>
+            Driven by curiosity and a passion for problem-solving, I
+            continuously seek to learn and apply new technologies, bridging the
+            gap between scientific innovation and modern software development.
+          </p>
+        </div>
+        <img id="profile-pic" src="alper.png" alt="Alper's profile picture." />
+      </section>
+
+      <section id="projects">
+        <h2 class="section-heading">My Projects</h2>
+        <ul>
+          <li>My personal Website</li>
+          <li>Mixed Messages</li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2 class="section-heading">Skills</h2>
+        <ul class="menu">
+          <li><i class="fa-brands fa-html5"></i></li>
+          <li><i class="fa-brands fa-css"></i></li>
+          <li><i class="fa-brands fa-js"></i></li>
+          <li><i class="fa-brands fa-node"></i></li>
+          <li><i class="fa-solid fa-terminal"></i></li>
+          <li><i class="fa-brands fa-git"></i></li>
+          <li><i class="fa-brands fa-github"></i></li>
+        </ul>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>

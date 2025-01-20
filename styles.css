@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: lightgray;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  width: 60%;
+  margin-left: 20%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.menu {
+  display: flex;
+  gap: 50px;
+}
+.menu li {
+  list-style-type: none;
+  font-size: 1.5rem;
+  transition: transform 0.05s ease;
+}
+.menu li:hover {
+  transform: scale(0.95);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#about {
+  display: inline-flex;
+  gap: 5%;
+  margin-top: 5rem;
+  align-items: center;
+  justify-content: space-between;
+  /* border: solid 1px red; */
+}
+.write-up {
+  width: 50%;
+  font-size: 1.1rem;
+}
+
+#profile-pic {
+  width: 400px;
+}
+
+#projects {
+  margin-top: 2rem;
+  /* border: solid red 1px; */
+}
+
+.section-heading {
+  margin-bottom: 2rem;
+}
+#projects li {
+  margin-left: 21px;
+  font-weight: 500;
+  font-size: 1.25rem;
+  list-style-type: square;
+}
+
+#skills {
+  margin-top: 2rem;
+}
+#skills li {
+  list-style-type: none;
+  font-size: 4rem;
+}
