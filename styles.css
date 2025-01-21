@@ -24,6 +24,7 @@ header {
 }
 .menu {
   display: flex;
+  align-items: center;
   gap: 50px;
 }
 .menu li {
@@ -35,7 +36,7 @@ header {
   transform: scale(0.95);
 }
 button {
-  padding: 0.5rem 0.25rem;
+  padding: 0.25rem;
   background-color: black;
   color: white;
   border: none;
