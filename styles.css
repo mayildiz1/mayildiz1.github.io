@@ -25,11 +25,11 @@ header {
 .menu {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
 }
 .menu li {
   list-style-type: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   transition: transform 0.05s ease;
 }
 .menu li:hover {
@@ -42,6 +42,9 @@ button {
   border: none;
   border-radius: 5px;
   font-size: 1.25rem;
+}
+button:hover {
+  transform: scale(0.95);
 }
 a {
   text-decoration: none;
@@ -145,6 +148,13 @@ footer {
   }
   .write-up {
     width: 100%;
+  }
+  header,
+  #about,
+  #projects,
+  #skills,
+  #contact {
+    width: 67.5%;
   }
 }
 @media screen and (max-width: 1000px) {
