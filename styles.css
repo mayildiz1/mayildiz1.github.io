@@ -158,6 +158,6 @@ footer {
 @media screen and (max-width: 600px) {
   #contact input,
   #contact textarea {
-    width: 15rem;
+    width: 17.5rem;
   }
 }
