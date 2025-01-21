@@ -24,7 +24,8 @@ function findPeriod() {
   dateDiff -= minutes * (1000 * 60);
   const seconds = Math.floor(dateDiff / 1000);
 
-  return `${years} years ${days} days ${hours} hours ${minutes} minutes and ${seconds} seconds`;
+  //   return `${years} years ${days} days ${hours} hours ${minutes} minutes and ${seconds} seconds`;
+  return `${years} years ${days} days and ${hours} hours`;
 }
 
 function changeMode() {
