@@ -125,12 +125,9 @@ a {
 footer {
   text-align: center;
   margin-top: 5rem;
-  height: 100px;
+  /* height: 100px; */
+  padding: 20px;
   border-top: 1px solid black;
-}
-footer h3 {
-  position: relative;
-  top: 40px;
 }
 
 @media screen and (max-width: 1600px) {
