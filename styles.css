@@ -53,11 +53,9 @@ a {
   margin-top: 5rem;
   align-items: center;
   justify-content: space-between;
-  /* border: solid 1px red; */
 }
 
 .write-up {
-  /* width: 50%; */
   font-size: 1.1rem;
 }
 
@@ -95,7 +93,7 @@ a {
 
 #skills li {
   list-style-type: none;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 #contact {
@@ -125,27 +123,23 @@ a {
 footer {
   text-align: center;
   margin-top: 5rem;
-  /* height: 100px; */
   padding: 20px;
   border-top: 1px solid black;
 }
 
 @media screen and (max-width: 1600px) {
   header {
-    /* display: flex; */
     flex-direction: column;
     gap: 2rem;
     text-align: center;
   }
   .menu {
-    /* display: block; */
     flex-direction: column;
     gap: 0.5rem;
   }
   #about {
     flex-direction: column-reverse;
     gap: 2.5rem;
-    /* padding: 5rem; */
   }
   .write-up {
     width: 100%;
