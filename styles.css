@@ -13,20 +13,6 @@ html {
   font-size: 16px;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
-button {
-  padding: 3px;
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-
-body {
-  /* width: 60%; */
-  /* max-width: 1200px; */
-  /* margin-left: 20%; */
-  /* justify-content: center; */
-}
 
 header {
   width: var(--default-width);
@@ -47,6 +33,14 @@ header {
 }
 .menu li:hover {
   transform: scale(0.95);
+}
+button {
+  padding: 0.5rem 0.25rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.25rem;
 }
 a {
   text-decoration: none;
