@@ -9,8 +9,10 @@ const myDate = new Date("1998-09-01T18:00:00");
 const today = new Date();
 const nowHour = new Date().getHours();
 
+console.log(nowHour);
+
 //Auxilary vars
-let isLight = true;
+let isDark = true;
 
 function findPeriod() {
   let dateDiff = today - myDate;
@@ -29,7 +31,7 @@ function findPeriod() {
 }
 
 function changeMode() {
-  if (isLight) {
+  if (isDark) {
     documentBody.style.backgroundColor = "black";
     documentBody.style.color = "white";
     navMenu.forEach((element) => {
@@ -39,7 +41,7 @@ function changeMode() {
     darkButton.style.color = "black";
     darkButton.style.backgroundColor = "white";
     darkButton.innerHTML = "Light Mode ☀️";
-    isLight = false;
+    isDark = false;
   } else {
     documentBody.style.backgroundColor = "white";
     documentBody.style.color = "black";
@@ -50,16 +52,14 @@ function changeMode() {
     darkButton.style.color = "white";
     darkButton.style.backgroundColor = "black";
     darkButton.innerHTML = "Dark Mode 🌕";
-    isLight = true;
+    isDark = true;
   }
 }
 
-if (nowHour >= 19 && nowHour < 6) {
+if (nowHour > 6 && nowHour <= 18) {
+  isDark = false;
   changeMode();
 }
 
 darkButton.addEventListener("click", changeMode);
-
 dateWord.innerHTML = findPeriod();
-
-document.addEventListener("DOMContentLoaded", findPeriod);
